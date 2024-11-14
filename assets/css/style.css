@@ -1,0 +1,69 @@
+.list>li {
+    list-style: circle;
+    font-weight: 300;
+    /* text-transform: capitalize; */
+}
+
+.bx-shadow {
+    box-shadow: 0 0 7px 0px #ccc;
+    background-color: rgba(255, 255, 255, 0.781);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .2s linear;
+}
+
+.bx-shadow:hover {
+    background-color: rgba(49, 49, 49, 0.781);
+    color: #ccc;
+}
+
+.service-bg1 {
+    background-image: url(../images2/property.jpg);
+}
+
+.service-bg2 {
+    background-image: url('../images2/gas.jpg');
+}
+
+.service-bg3 {
+    background-image: url(../images2/electric.jpg);
+}
+
+.service-bg4 {
+    background-image: url(../images2/floor.png);
+}
+
+.service-bg5 {
+    background-image: url(../images2/quote.jpg);
+}
+
+.service-bg6 {
+    background-image: url(../images2/commercial.jpg);
+}
+
+.swiper {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide .img {
+    display: block;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.svg{
+    height: 10%;
+}
