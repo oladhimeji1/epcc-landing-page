@@ -67,3 +67,30 @@
 .svg{
     height: 10%;
 }
+
+.about-service{
+    background-image: url(../../assets/images2/pic/uk-city.jpg);
+    background-color: rgba(0, 0, 0, 0.911);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .2s linear;
+    height: 110vh;
+    background-position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.about-service div {
+    width: 50%;
+    margin-top: 70px;
+}
+
+.about-img img{
+    width: 90%;
+}
+
+.about-container{
+    color: #fff;
+}
